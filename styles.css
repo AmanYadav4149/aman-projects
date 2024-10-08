@@ -1,0 +1,16 @@
+body{
+    background-color: purple;
+}
+
+div{
+    margin: 100px;
+    margin-right: 50px;
+    height: 250px;
+    width: 350px;
+    background-color: white;
+    text-align: center;
+    column-gap: 1px;
+}
+tr{
+    padding-bottom: 15px;
+}

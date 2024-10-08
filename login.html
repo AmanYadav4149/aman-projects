@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body> 
+    <center>
+        <div>
+        <h3> Resgister here </h3>
+    <form action="login.php" method="post">
+        <table >
+    
+            <tr>
+            
+                <td>username:</td>
+                <td>
+                    <input type="text" name="user" placeholder="Enter your username">
+                </td>
+            
+            </tr>
+
+            <tr>
+                <td>password:</td>
+                <td>
+                    <input type="password" name="user_pass" placeholder="Enter your password">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Emai:
+                </td>
+                <td>
+                    <input type="email" name="mail" placeholder="Enter your email">
+                </td>
+            </tr>
+        
+            <tr>
+                <td> Gender:</td>
+                <td>
+                     <input type="radio" name="gender">Male
+                     <input type="radio" name="gender">Female
+                     <input type="radio" name="gender">Others
+                </td>
+            </tr>
+            <tr>
+                <td>Phone:</td>
+                <td>
+                    <select>
+                        <option selected>+91</option>
+                        <option>+61</option>
+                        <option>+02</option>
+                        <option>+00</option>
+                        <option>+29</option>
+                        <option>+12</option>
+                        <option>+63</option>
+                    </select>
+                    <input type="phone" name="mob_digits" placeholder="91********" maxlength="10">
+                </td>
+                <tr>
+                    <td>
+                        <input type="submit" name="submit" value="Submit">
+                    </td>
+                </tr>
+            </tr>
+        </div>
+        </table>
+    </form>
+    </center>
+</body>
+</html>
